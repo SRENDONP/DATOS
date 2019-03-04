@@ -33,4 +33,3 @@ class DatosSpider(CrawlSpider):
 				raise CloseSpider('item_exceeded')
 			yield mi_item
 
-print ("ejecutado")
