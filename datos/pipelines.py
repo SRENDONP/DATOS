@@ -5,11 +5,6 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
-
-"""class DatosPipeline(object):
-    def process_item(self, item, spider):
-        return item"""
-
 import scrapy
 from scrapy import signals
 from scrapy.exporters import CsvItemExporter
@@ -19,7 +14,7 @@ from scrapy import Request
 import csv
 
 class DatosPipeline(object):
-    def __init__(self):
+     def __init__(self):
         self.files = {}
 
     @classmethod
