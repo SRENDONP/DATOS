@@ -17,4 +17,3 @@ class DatosItem(scrapy.Item):
     filas = scrapy.Field()
     columnas = scrapy.Field()
     propietario = scrapy.Field()
-
